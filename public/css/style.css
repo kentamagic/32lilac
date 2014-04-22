@@ -118,4 +118,10 @@ body{
 	font-style: italic;
 }
 
+.accent{
+	font-size: 22px;
+	font-weight: bold;
+	text-align: right;
+}
+
 
