@@ -3,7 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>32 Lilac</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta content='' name="description">
+    <meta content='art' name='keywords'>
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -25,14 +30,14 @@
 			<br>
 			</i>
 		</div>
-		<div class="open col-md-offset-2 ui-widget-content">
-			<img src="images/open.png" alt="open" class="col-md-5">
+		<div class="open col-md-offset-2">
+			<img src="images/open.png" alt="open" class="draggable" style="width: 300px;">
 		</div>			
 	</div>	
 
 	<div class="row">
 		<div class="32lilac col-md-3">
-			<img src="images/32lilac.png" alt="" class="col-md-12">
+			<img src="images/32lilac.png" alt="" style="position: absolute; width: 250px;" class="draggable">
 			<div class="location col-md-offset-3">
 				<b>32 Lilac Street</b><br>
 				<b>New Haven, CT</b><br>
@@ -66,15 +71,14 @@
 			Justine Yan<br>
 		</div>
 		<div class="house">
-			<img src="images/house.png" alt="" class="col-md-3">
+			<img src="images/house.png" alt="" class="draggable" style="width: 500px;">
 		</div>
-		<div class="art">
-			<img src="images/art.png" alt="" class="col-md-3">
+		<div>
+			<img src="images/art.png" alt="" class="draggable" style="width: 100px;">
+			<img src="images/show.png" alt="" class="draggable" style="width: 400px;">							
 		</div>
-		<div class="show">
-			<img src="images/show.png" alt="" class="col-md-6">
-		</div>
-		<div class="info col-md-6">
+
+		<div class="info col-md-6" style="padding-top: 20px;">
 			<b>Friday April 25 and Sunday April 27 (Limited showing on April 26) <br>
 			11 am to 5 pm </b><br>
 			<br>
@@ -84,10 +88,12 @@
 		</div>
 	</div>
 
-	<div class="row section">
+	<!-- <div class="row section">
 		<div class="headshots col-md-4">
-			<img src="images/justine1.jpg" alt="" class="curatorbox">
-			<img src="images/justine2.jpg" alt="" class="curatorbox">
+			<div class="justine1">
+			</div>
+			<div class="justine2">
+			</div>			
 		</div>
 		<div class="curatortext1 col-md-4">
 			<p>Cursus hac. Aptent magna inceptos metus tempor netus felis fermentum sollicitudin mollis et mauris class. Torquent luctus nisi sapien metus fermentum vivamus suscipit. At platea consectetuer pellentesque, sit vel commodo aliquam aptent phasellus suspendisse ad. Lectus velit aliquam eu praesent rhoncus nec porta sociis fermentum orci vivamus. Faucibus feugiat ut euismod cum volutpat enim amet vitae mattis. Lacus vulputate. Non. Vestibulum erat sodales feugiat elementum nibh, hac. Inceptos diam sodales praesent dictumst aptent litora per nibh malesuada interdum nostra, litora, velit netus mauris elementum neque dui dis viverra mauris semper ridiculus rhoncus cras. Potenti suspendisse sit mauris lorem malesuada Aliquet fermentum leo et porttitor donec. Nam mollis a, id lorem, proin sollicitudin lacus, sociis potenti, phasellus. Sagittis consectetuer dictumst convallis nam lectus duis phasellus aptent aptent nibh Volutpat faucibus habitasse tempor class faucibus vitae montes lorem fames Imperdiet cursus commodo. Nulla quis netus lobortis, convallis porta a ligula porttitor augue lobortis gravida eleifend vehicula ridiculus maecenas praesent orci eros vestibulum neque dignissim dui lorem at  </p>
@@ -95,18 +101,50 @@
 		<div class="curatortext2 col-md-4">
 			<p>Cursus hac. Aptent magna inceptos metus tempor netus felis fermentum sollicitudin mollis et mauris class. Torquent luctus nisi sapien metus fermentum vivamus suscipit. At platea consectetuer pellentesque, sit vel commodo aliquam aptent phasellus suspendisse ad. Lectus velit aliquam eu praesent rhoncus nec porta sociis fermentum orci vivamus. Faucibus feugiat ut euismod cum volutpat enim amet vitae mattis. Lacus vulputate. Non. Vestibulum erat sodales feugiat elementum nibh, hac. Inceptos diam sodales praesent dictumst aptent litora per nibh malesuada interdum nostra, litora, velit netus mauris elementum neque dui dis viverra mauris semper ridiculus rhoncus cras. Potenti suspendisse sit mauris lorem malesuada Aliquet fermentum leo et porttitor donec. Nam mollis a, id lorem, proin sollicitudin lacus, sociis potenti, phasellus. Sagittis consectetuer dictumst convallis nam lectus duis phasellus aptent aptent nibh Volutpat faucibus habitasse tempor class faucibus vitae montes lorem fames Imperdiet cursus commodo. Nulla quis netus lobortis, convallis porta a ligula porttitor augue lobortis gravida eleifend vehicula ridiculus maecenas praesent orci eros vestibulum neque dignissim dui lorem at  </p>			
 		</div>	
-	</div>
+	</div> -->
 
-	<div class="row">
+	<div class="row section">
+		<div class="col-md-4 col-sm-4">
+			<div class="headshot justine1">
+				<div class="overlay"></div>
+				<div class="content">
+					Here is some content
+				</div>
+			</div>
+			<div class="headshot justine2">
+
+			</div>			
+		</div>
+		<div class="col-md-4 col-sm-4">
+			<p>Cursus hac. Aptent magna inceptos metus tempor netus felis fermentum sollicitudin mollis et mauris class. Torquent luctus nisi sapien metus fermentum vivamus suscipit. At platea consectetuer pellentesque, sit vel commodo aliquam aptent phasellus suspendisse ad. Lectus velit aliquam eu praesent rhoncus nec porta sociis fermentum orci vivamus. Faucibus feugiat ut euismod cum volutpat enim amet vitae mattis. Lacus vulputate. Non. Vestibulum erat sodales feugiat elementum nibh, hac. Inceptos diam sodales praesent dictumst aptent litora per nibh malesuada interdum nostra, litora, velit netus mauris elementum neque dui </p>
+			<p>Cursus hac. Aptent magna inceptos metus tempor netus felis fermentum sollicitudin mollis et mauris class. Torquent luctus nisi sapien metus fermentum vivamus suscipit. At platea consectetuer pellentesque, sit vel commodo aliquam aptent phasellus suspendisse ad. Lectus velit aliquam eu praesent rhoncus nec porta sociis fermentum orci vivamus. Faucibus feugiat ut euismod cum volutpat enim amet vitae mattis. Lacus vulputate. Non. Vestibulum erat sodales feugiat elementum nibh, hac. Inceptos diam sodales praesent dictumst aptent litora per nibh malesuada interdum nostra, litora, velit netus mauris elementum neque dui </p>
+		</div>
+		<div class="col-md-4 col-sm-4">
+			<div class="headshot olivia">
+				<div class="overlay"></div>
+				<div class="content">
+					Here is some content
+				</div>
+			</div>
+		</div>
+
+
 		<div class="headshots col-md-4">
-			<img src="images/martina.png" alt="" class="curatorbox">
-			<img src="images/zach.jpg" alt="" class="curatorbox">
+			<div class="martina">
+			</div>
+			<div class="zach">
+			</div>			
 				<p>Cursus hac. Aptent magna inceptos metus tempor netus felis fermentum sollicitudin mollis et mauris class. Torquent luctus nisi sapien metus fermentum vivamus suscipit. At platea consectetuer pellentesque, sit vel commodo aliquam aptent phasellus suspendisse ad. Lectus velit aliquam eu praesent rhoncus nec porta sociis fermentum orci vivamus. Faucibus feugiat ut euismod cum volutpat enim amet vitae mattis. Lacus vulputate. Non. Vestibulum erat sodales feugiat elementum nibh, hac. Inceptos diam sodales praesent dictumst aptent litora per nibh malesuada interdum nostra, litora, velit netus mauris elementum neque dui </p>
 		</div>		
-		<div class="headshots col-md-4">
-			<img src="images/olivia.jpg" alt="" class="curatorbox">
-			<img src="images/jaime.jpg" alt="" class="curatorbox">
-			<img src="images/becky.jpg" alt="" class="curatorbox">
+		<div class="headshots col-md-4" style="position: relative;">
+			<div class="headshot-container olivia">
+				<div class="overlay"></div>
+				<div class="content"></div>
+			</div>
+			<div class="headshot-container">
+			</div>		
+			<div class="headshot-container">
+			</div>				
 		</div>
 		<div class="headshots col-md-4">
 			<img src="images/justine1.jpg" alt="" class="curatorbox">
@@ -115,7 +153,7 @@
 		</div>		
 	</div>
 
-	<div class="row">
+	<!-- <div class="row">
 		<a name="signup">
 			<div class="col-md-4">
 				<img src="images/oliviaArt.jpg" alt="" class="curatorbox">
@@ -125,12 +163,13 @@
 				<iframe src="https://docs.google.com/forms/d/1kPdh4Gqv85rgImveBrH86KugI4BkTQS7w-VlfmKbiCA/viewform?embedded=true" width="760" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>			
 			</div>
 		</a>
-	</div>
+	</div> -->
 
 </div>	
 
 
-	<script src="//ajax.goog.;lo9,leapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-	<script src="js/script.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+	<script src="/js/script.js"></script>
 </body>
 </html>
