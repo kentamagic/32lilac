@@ -31,7 +31,7 @@ body{
 
 .rsvp{
 	padding-top: 30px;
-	font-size: 30px;
+	font-size: 70px;
 }
 
 .headshot {
@@ -106,6 +106,14 @@ body{
 
 .headshot.jaime{
 	background-image: url('/images/jaime.jpg');
+}
+
+.headshot.elif{
+	background-image: url('/images/elif.jpg');
+}
+
+.headshot.control{
+	background-image: url('/images/control.jpg');
 }
 
 .curatorbox{
