@@ -51,11 +51,12 @@ body{
 	opacity: 0;
 	-webkit-transition: opacity 0.2s;
 	z-index: 1;
-	background-color: rgba(0,0,0,0.4);
+	background-color: rgba(255,0,255,0.2);
 }
 
 .headshot > .content {
 	position: absolute;
+	font-size: 20px;
 	width: 100%; height: 100%;
 	opacity: 0;
 	color: white;
@@ -83,20 +84,28 @@ body{
 	background-image: url('/images/olivia.jpg');
 }
 
-.jaime{
-	background-image: url('/images/jaime.jpg');
-	background-size: 360px 240px;
-	width: 100%;
-	min-height: 240px;
-	margin-bottom: 20px;
+.headshot.becky{
+	background-image: url('/images/becky.jpg');
 }
 
-.becky{
-	background-image: url('/images/becky.jpg');
-	background-size: 360px 240px;
-	width: 100%;
-	min-height: 240px;
-	margin-bottom: 20px;
+.headshot.jacqui{
+	background-image: url('/images/jacqui.jpg');
+}
+
+.headshot.kenta{
+	background-image: url('/images/kenta.jpg');
+}
+
+.headshot.martina{
+	background-image: url('/images/martina.png');
+}
+
+.headshot.zach{
+	background-image: url('/images/zach.jpg');
+}
+
+.headshot.jaime{
+	background-image: url('/images/jaime.jpg');
 }
 
 .curatorbox{
@@ -104,8 +113,9 @@ body{
 	padding-bottom: 20px;
 }
 
-.curatortext1{
+.pink{
 	color: #FF00FF;
+	font-style: italic;
 }
 
 
