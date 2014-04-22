@@ -124,4 +124,12 @@ body{
 	text-align: right;
 }
 
+.inst{
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	border-style: solid;
+	border-color: #FF00FF;
+}
+
 
