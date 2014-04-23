@@ -55,18 +55,26 @@ body{
 	opacity: 0;
 	-webkit-transition: opacity 0.2s;
 	z-index: 1;
-	background-color: rgba(255,0,255,0.2);
+	background-color: rgba(255,0,255,0.4);
 }
 
 .headshot > .content {
 	position: absolute;
-	font-size: 20px;
+	/*font-size: 20px;*/
 	width: 100%; height: 100%;
 	opacity: 0;
 	color: white;
 	z-index: 2;
 	padding: 25px;
 	text-align: left;
+}
+
+.headshot > .content > .header{
+	font-size: 20px;
+}
+
+.headshot > .content > .description{
+	font-size: 14px;
 }
 
 .headshot:hover > .overlay {
@@ -118,6 +126,10 @@ body{
 
 .headshot.control{
 	background-image: url('/images/control.jpg');
+}
+
+.headshot.abigail{
+	background-image: url('/images/abigail.jpg');
 }
 
 .curatorbox{
