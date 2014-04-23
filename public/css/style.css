@@ -136,6 +136,10 @@ body{
 	background-image: url('/images/anna.jpg');
 }
 
+.headshot.room{
+	background-image: url('/images/room.jpg');
+}
+
 .curatorbox{
 	width: 100%;
 	padding-bottom: 20px;
